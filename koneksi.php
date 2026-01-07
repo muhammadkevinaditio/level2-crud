@@ -1,9 +1,8 @@
 <?php
 $host = "localhost";
-$user = "level1_user"; // Sesuai panduan 
-$pass = "password";    // Sesuai panduan 
-$db   = "level1_db";   // Sesuai panduan [cite: 27]
-
+$user = "level3_user";  // Ubah jadi level3_user
+$pass = "password";     // Password tetap sama
+$db   = "level3_db";    // Ubah jadi level3_db
 $koneksi = mysqli_connect($host, $user, $pass, $db);
 
 if (!$koneksi) {
